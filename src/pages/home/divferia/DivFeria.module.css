@@ -1,0 +1,43 @@
+.sectionFeria{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    gap: 15px;
+}
+
+div.feria,div.envio{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--secondaryFont);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+div.feria p{
+    width: 100%;
+}
+
+div.feria a{
+    width: 10%;
+    
+    min-width: 80px;
+}
+
+div.feria a img{
+    width:100%;
+    border-radius: 50%;
+}
+
+div.envio{
+    flex-direction: column;
+}
+div.envio img{
+    width:20%;
+    
+    min-width: 100px;
+}

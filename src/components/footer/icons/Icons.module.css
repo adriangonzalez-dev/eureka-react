@@ -1,0 +1,49 @@
+.social_icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    z-index: 10;
+}
+
+.social_icons li {
+    margin: 0 5px;
+}
+
+.social_icons li a {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    transition: 0.5s ease;
+}
+
+.social_icons li a:hover {
+    background-image: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 25px;
+}
+
+.social_icons li a::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+}
+
+.social_icons li a:hover::before {
+    transform: scale(0);
+}
