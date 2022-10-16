@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './Card.module.css'
-import boxIcon from 'boxicons'
 
 export const Card = ({name, image, price}) => {
   return (
