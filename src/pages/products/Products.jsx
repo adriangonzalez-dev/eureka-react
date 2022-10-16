@@ -7,7 +7,7 @@ import Swal from 'sweetalert2'
 
 
 export const Products = () => {
-  const [products, setProducts] = useState(productos);
+  const [products] = useState(productos);
   const [search, setSearch] = useState('');
   const [searchProducts, setSearchProducts] = useState([])
 
