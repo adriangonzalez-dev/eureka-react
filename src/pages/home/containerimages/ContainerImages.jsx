@@ -32,7 +32,7 @@ export const ContainerImages = () => {
         spaceBetween={0}
         slidesPerGroup={4} */
         loop={true}
-        loopFillGroupWithBlank={false}
+        loopFillGroupWithBlank={true}
         pagination={{
           clickable: true,
         }}
@@ -52,24 +52,24 @@ export const ContainerImages = () => {
               slidesPerGroup: 1
             },
             "400": {
-              slidesPerView: 2,
+              slidesPerView: 1,
               spaceBetween: 100,
-              slidesPerGroup: 2
+              slidesPerGroup: 1
             },
             "500": {
+              slidesPerView: 1,
+              spaceBetween: 100,
+              slidesPerGroup: 1
+            },
+            "600": {
               slidesPerView: 2,
               spaceBetween: 100,
               slidesPerGroup: 2
             },
-            "600": {
-              slidesPerView: 3,
-              spaceBetween: 100,
-              slidesPerGroup: 3
-            },
             "768": {
-              slidesPerView: 3,
-              spaceBetween: 100,
-              slidesPerGroup: 3
+              slidesPerView: 2,
+              spaceBetween: 10,
+              slidesPerGroup: 2
             },
             "1024": {
               slidesPerView: 4,

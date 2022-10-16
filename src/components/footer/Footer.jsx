@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer className={styles.footer}>
     <Icons/>
-    <p>Desarrollado por <a href="/">adriangonzalez.dev90</a></p>
+    <p>Desarrollado por <a href="https://adriangonzalezdev90.netlify.app/">adriangonzalez.dev90</a></p>
 </footer>
   )
 }

@@ -8,7 +8,7 @@ export const DivFeria = () => {
     <section className={styles.sectionFeria}>
     <div className={styles.feria}>
         <p>Podes encontrarnos en Presidente Derqui participando de Derqui Emprende los viernes y sabados de 13 a 18hs</p>
-        <a href="/"><img src={derquiEmprende} alt="" /></a>
+        <a href="https://www.instagram.com/derquiemprende/"><img src={derquiEmprende} alt="" /></a>
     </div>
 
     <div className={styles.envio}>

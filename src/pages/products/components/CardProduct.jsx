@@ -14,7 +14,7 @@ export const CardProduct = ({name, price, category,image }) => {
           <div className={styles.image}>
               <img src={image} alt="" />
               <span onClick={() => liked()}>
-                  <i className={`fa-solid fa-heart ${active ? 'liked' : ''}`}></i>
+                  <i className={`fa-solid fa-heart ${active && styles.liked}`}></i>
               </span>
           </div>
           <div className={styles.info}>
@@ -26,7 +26,7 @@ export const CardProduct = ({name, price, category,image }) => {
               }
               <div className={styles.shop}>
                   <p>Categoría: {category}</p>
-                  <a href="/"><img src={wsp} alt="" /></a>
+                  <a href={`https://api.whatsapp.com/send?phone=541123787746&text=hola,%20qué%20tal?%Quisiera%reservar%este%producto:%20${name}`} target='_blank' rel='noreferrer'><img src={wsp} alt="" /></a>
               </div>
           </div>
       </div>

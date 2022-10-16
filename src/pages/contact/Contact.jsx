@@ -3,6 +3,7 @@ import { Icons } from './Icons'
 import styles from './Contact.module.css'
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import Swal from 'sweetalert2';
 
 
 export const Contact = () => {
@@ -18,14 +19,19 @@ export const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(values)
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: 'Mensaje enviado',
+      showConfirmButton: true,
+      timer: 1500
+    })
+
   }
 
   return (
     <div className={styles.main}>
        <form
-       action="https://formsubmit.co/adriramone90@gmail.com"
-       method="post"
        className={styles.form}
        onSubmit={handleSubmit}>
 
