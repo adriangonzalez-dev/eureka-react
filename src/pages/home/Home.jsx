@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <main className={styles.main_home}>
         <section>
-        <img src={logo} alt=""/>
+        <img src={logo} alt="" className={styles.main_image}/>
         <h1>Eureka Arte</h1>
         <h4>Artesanias</h4>
         <p>"Un amor que surja en el contacto con la extrañeza del otro"</p>

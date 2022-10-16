@@ -4,7 +4,7 @@ import styles from './Card.module.css'
 export const Card = ({name, image, price}) => {
   return (
     <div className={styles.profile_card}>
-      <img src={image} alt={name}/>
+      <img src={image} alt={name} className={styles.img}/>
       <div className={styles.info} id="info">
           
           <h4 className={styles.name}>{name}</h4>

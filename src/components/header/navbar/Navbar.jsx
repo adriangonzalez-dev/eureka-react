@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import styles from './Navbar.module.css'
+import styles from './Navbar.module.css';
+import princ from '../../../static/pincipito.png'
 
 
 export const Navbar = () => {
@@ -21,7 +22,7 @@ export const Navbar = () => {
                 <li onClick={()=>activeMenu()}><Link to='/productos'>Productos</Link></li>
                 <li onClick={()=>activeMenu()}><Link to='/contacto'>Contacto</Link></li>
             </ul>
-            
+            <img src={princ} alt="" className={styles.princLogo}/>
         </nav>
     </>
   )

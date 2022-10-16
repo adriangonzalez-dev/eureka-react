@@ -1,0 +1,33 @@
+:root{
+    --instagram: #e4405f;
+    --whatsapp: #4dc247;
+}
+.redes_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px
+}
+
+.redes_container ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.redes_container ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes_container ul li a.instagram{
+    color:var(--instagram)
+}
+
+.redes_container ul li a.whatsapp{
+    color: var(--whatsapp);
+}

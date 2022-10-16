@@ -41,9 +41,20 @@
     display: none;
 }
 
+.princLogo{
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
 @media (min-width: 800px){
     .buttonMenu{
         display: none;
+    }
+
+    .princLogo{
+        display:none;
     }
 
     .nav{
